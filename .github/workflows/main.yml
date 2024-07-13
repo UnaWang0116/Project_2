@@ -8,9 +8,12 @@ jobs:
         runs-on: ubuntu-latest #運行環境
         steps:
         - uses: actions/checkout@v2 #執行動作
+        - name: Install packege
+          run: |
+            pip3 install mediapipe
         - name: Run test.py #動作名稱
-          run:
+          run: |
             python3 Test.py #檔案名稱
         - name: Run Test2 py
-          run:
+          run: |
             python3 Test2.py
