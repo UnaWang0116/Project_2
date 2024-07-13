@@ -19,9 +19,9 @@ jobs:
             python3 send_mail.py
     build2:
         name: do job2
-        runs-on: ubuntu - latest
+        runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v2
         - name: Run test py
           run: |
-            python3 test2.py
+            python3 Test2.py
