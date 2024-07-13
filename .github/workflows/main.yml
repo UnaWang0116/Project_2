@@ -10,4 +10,4 @@ jobs:
         - uses: actions/checkout@v2 #執行動作
         - name: Run test.py #動作名稱
           run:
-            python3 test.py #檔案名稱
+            python3 Test.py #檔案名稱
