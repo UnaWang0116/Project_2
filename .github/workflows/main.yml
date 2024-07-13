@@ -11,3 +11,6 @@ jobs:
         - name: Run test.py #動作名稱
           run:
             python3 Test.py #檔案名稱
+        - name: Run Test2 py
+          run:
+            python3 Test2.py
