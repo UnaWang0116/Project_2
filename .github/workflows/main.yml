@@ -1,0 +1,13 @@
+name: Run my python #程式碼放上
+on:
+    push:
+
+jobs:
+    build: #建立環境
+        name: do job1 #任務名稱
+        runs-on: ubuntu-latest #運行環境
+        steps:
+        - uses: actions/checkout@v2 #執行動作
+        - name: Run test.py #動作名稱
+          run:
+            python3 test.py #檔案名稱
