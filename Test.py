@@ -1,5 +1,4 @@
 import sys
-import mediapipe
 print("hello world")
 a = 1
 b = 2
